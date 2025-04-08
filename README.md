@@ -1,2 +1,2 @@
 # eventi-domain
-Progetto filale stage 2025
+Gestisce la creazione, la gestione e la registrazione agli eventi.
