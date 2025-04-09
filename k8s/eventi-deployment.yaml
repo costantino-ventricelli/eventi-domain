@@ -16,7 +16,6 @@ spec:
       containers:
         - name: eventi
           image: eventi:latest
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
-
-  
