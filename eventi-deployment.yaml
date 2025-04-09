@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eventi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eventi
+  template:
+    metadata:
+      labels:
+        app: eventi
+    spec:
+      containers:
+        - name: eventi
+          image: daDefinire/eventi:latest
+          ports:
+            - containerPort: 8080
+
+  
