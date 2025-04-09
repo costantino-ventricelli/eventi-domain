@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: eventi
-          image: daDefinire/eventi:latest
+          image: eventi:latest
           ports:
             - containerPort: 8080
 
